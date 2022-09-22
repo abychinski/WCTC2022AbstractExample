@@ -22,6 +22,11 @@ namespace AbstractExample.Models
             {
                 Console.WriteLine($"{Name} says hiss");
             }
+        public override void Sleep()
+        {
+            Console.WriteLine($"{Name} doesn't make a sound while sleeping");
+
         }
+    }
     
 }
