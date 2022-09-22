@@ -14,7 +14,7 @@ namespace AbstractExample
 
             if (choice == "1")
             {
-                animal = new Pig();
+                animal = new Snake();
             }
             else if (choice == "2")
             {
